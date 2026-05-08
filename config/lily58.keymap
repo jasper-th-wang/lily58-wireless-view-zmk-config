@@ -114,7 +114,7 @@
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 >;
-        }
+        };
 
         extra_3 {
             status = "reserved";

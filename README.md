@@ -9,3 +9,8 @@ When flashing you the terminal like cp /Users/jasperwang/Downloads/firmware-2/li
 this is because if you copy directly via Finder .DS_Store file may cause some issues my MacOS (my guess, cuz it didnt work.)
 
 Don't skip any layers: see commit 6854c8a, I had an status: reserved layer before another layer I would like to enter, that messes things up
+
+# links
+https://zmk.dev/docs/keymaps/list-of-keycodes
+https://zmk.dev/docs/features/split-keyboards
+steps of flashing: https://zmk.dev/docs/user-setup#install-the-firmware

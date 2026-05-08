@@ -69,7 +69,7 @@
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans          &trans    &trans    &trans
 &trans     &kp BSLH         &kp GRAVE         &kp UNDER         &kp AMPS     &kp TILDE                    &kp CARET  &kp LBRC  &kp RBRC  &kp EQUAL   &trans   &trans
 &trans     &kp KP_SLASH     &kp KP_MULTIPLY   &kp KP_MINUS      &kp KP_PLUS  &kp PRCNT                    &kp EXCL   &kp LPAR  &kp RPAR  &m_arrow   &m_fat_arrow  &trans
-&trans     &trans           &trans            &LS(LA(MINUS))    &trans       &trans    &trans   &trans    &trans     &kp LBKT  &kp RBKT  &trans  &trans  &trans
+&trans     &trans           &trans            &kp LS(LA(MINUS)) &trans       &trans    &trans   &trans    &trans     &kp LBKT  &kp RBKT  &trans  &trans  &trans
                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
             >;
 

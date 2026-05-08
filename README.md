@@ -1,6 +1,20 @@
+# Steps to Update Config
+
+1. Edit `./config/lily58.keymap`.
+2. Commit and push — this will trigger the build GitHub Action.
+3. On the workflow run page, click **Summary**, then scroll to the bottom to download the firmware.
+4. Plug in the **left** keyboard and press the bootloader key. You should see a `NICENANO` device mounted.
+5. Use the following command to copy the firmware to the left side:
+```bash
+   cp ~/Downloads/firmware/lily58_left\ nice_view_adapter\ nice_view-nice_nano_v2-zmk.uf2 /Volumes/NICENANO
+```
+6. While still plugged in, test the left side before unplugging to avoid Bluetooth issues.
+7. Repeat steps 4–6 for the **right** side (using the right-side `.uf2` file).
+8. Done.
+
 # Notes to Self
 
-- Remember to go to ZMK Studio and click **RESET** so that ZMK Studio's custom settings won't override the config file you flashed.
+- Remember to go to ZMK Studio and *restore defaults* so that ZMK Studio's custom settings won't override the config file you flashed.
 - When flashing firmware, do it **one side at a time**. Use the bootloader key on the left side when flashing the left side, and the bootloader key on the right side when flashing the right side.
 - Flash via the terminal rather than Finder, e.g.:
   ```bash
